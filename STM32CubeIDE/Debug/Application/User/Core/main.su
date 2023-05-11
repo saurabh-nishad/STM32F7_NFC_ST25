@@ -1,0 +1,8 @@
+../../Lib/Inc/utils.h:32:20:red_color_printf	8	static
+../../Lib/Inc/utils.h:36:20:green_color_printf	8	static
+../../Lib/Inc/utils.h:44:20:white_color_printf	8	static
+H:/Workspace/STM32F7/F7_NFC_Ethernet/Core/Src/main.c:67:5:main	8	static
+H:/Workspace/STM32F7/F7_NFC_Ethernet/Core/Src/main.c:118:6:SystemClock_Config	88	static
+H:/Workspace/STM32F7/F7_NFC_Ethernet/Core/Src/main.c:182:6:HAL_TIM_PeriodElapsedCallback	16	static
+H:/Workspace/STM32F7/F7_NFC_Ethernet/Core/Src/main.c:199:6:Error_Handler	4	static,ignoring_inline_asm
+H:/Workspace/STM32F7/F7_NFC_Ethernet/Core/Src/main.c:218:6:assert_failed	16	static

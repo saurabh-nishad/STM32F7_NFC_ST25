@@ -1,0 +1,8 @@
+utils.h:32:20:red_color_printf	1
+utils.h:36:20:green_color_printf	1
+utils.h:44:20:white_color_printf	1
+main.c:67:5:main	1
+main.c:118:6:SystemClock_Config	4
+main.c:182:6:HAL_TIM_PeriodElapsedCallback	2
+main.c:199:6:Error_Handler	1
+main.c:218:6:assert_failed	1

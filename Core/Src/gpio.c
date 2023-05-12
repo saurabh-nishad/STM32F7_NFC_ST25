@@ -137,6 +137,8 @@ void MX_GPIO_Init(void)
   */
 void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
 {
+#ifdef  USE_FULL_ASSERT
 	assert_failed((uint8_t*)__FILE__,	(uint32_t)__LINE__);
+#endif
 }
 /* USER CODE END 2 */

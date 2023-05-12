@@ -1,4 +1,4 @@
-stm32f7xx_hal_hcd.c:110:19:HAL_HCD_Init	6
+stm32f7xx_hal_hcd.c:110:19:HAL_HCD_Init	4
 stm32f7xx_hal_hcd.c:200:19:HAL_HCD_HC_Init	3
 stm32f7xx_hal_hcd.c:239:19:HAL_HCD_HC_Halt	2
 stm32f7xx_hal_hcd.c:255:19:HAL_HCD_DeInit	2

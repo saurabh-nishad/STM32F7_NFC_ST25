@@ -6,7 +6,7 @@ stm32f7xx_hal.c:231:26:HAL_InitTick	3
 stm32f7xx_hal.c:290:13:HAL_IncTick	1
 stm32f7xx_hal.c:301:17:HAL_GetTick	1
 stm32f7xx_hal.c:310:10:HAL_GetTickPrio	1
-stm32f7xx_hal.c:319:19:HAL_SetTickFreq	6
+stm32f7xx_hal.c:319:19:HAL_SetTickFreq	3
 stm32f7xx_hal.c:351:21:HAL_GetTickFreq	1
 stm32f7xx_hal.c:367:13:HAL_Delay	3
 stm32f7xx_hal.c:393:13:HAL_SuspendTick	1

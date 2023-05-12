@@ -1,7 +1,7 @@
 stm32f7xx_hal_rcc.c:196:19:HAL_RCC_DeInit	14
-stm32f7xx_hal_rcc.c:342:19:HAL_RCC_OscConfig	89
-stm32f7xx_hal_rcc.c:722:19:HAL_RCC_ClockConfig	59
-stm32f7xx_hal_rcc.c:903:6:HAL_RCC_MCOConfig	17
+stm32f7xx_hal_rcc.c:342:19:HAL_RCC_OscConfig	62
+stm32f7xx_hal_rcc.c:722:19:HAL_RCC_ClockConfig	19
+stm32f7xx_hal_rcc.c:903:6:HAL_RCC_MCOConfig	2
 stm32f7xx_hal_rcc.c:957:6:HAL_RCC_EnableCSS	1
 stm32f7xx_hal_rcc.c:966:6:HAL_RCC_DisableCSS	1
 stm32f7xx_hal_rcc.c:1001:10:HAL_RCC_GetSysClockFreq	6

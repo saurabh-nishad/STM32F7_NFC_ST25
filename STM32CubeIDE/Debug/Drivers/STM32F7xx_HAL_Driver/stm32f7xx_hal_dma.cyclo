@@ -1,7 +1,7 @@
-stm32f7xx_hal_dma.c:171:19:HAL_DMA_Init	67
-stm32f7xx_hal_dma.c:311:19:HAL_DMA_DeInit	19
-stm32f7xx_hal_dma.c:409:19:HAL_DMA_Start	5
-stm32f7xx_hal_dma.c:453:19:HAL_DMA_Start_IT	6
+stm32f7xx_hal_dma.c:171:19:HAL_DMA_Init	8
+stm32f7xx_hal_dma.c:311:19:HAL_DMA_DeInit	3
+stm32f7xx_hal_dma.c:409:19:HAL_DMA_Start	3
+stm32f7xx_hal_dma.c:453:19:HAL_DMA_Start_IT	4
 stm32f7xx_hal_dma.c:516:19:HAL_DMA_Abort	6
 stm32f7xx_hal_dma.c:584:19:HAL_DMA_Abort_IT	2
 stm32f7xx_hal_dma.c:614:19:HAL_DMA_PollForTransfer	15

@@ -1,8 +1,8 @@
-stm32f7xx_hal_uart.c:289:19:HAL_UART_Init	22
-stm32f7xx_hal_uart.c:362:19:HAL_HalfDuplex_Init	13
-stm32f7xx_hal_uart.c:435:19:HAL_LIN_Init	17
-stm32f7xx_hal_uart.c:532:19:HAL_MultiProcessor_Init	8
-stm32f7xx_hal_uart.c:606:19:HAL_UART_DeInit	10
+stm32f7xx_hal_uart.c:289:19:HAL_UART_Init	5
+stm32f7xx_hal_uart.c:362:19:HAL_HalfDuplex_Init	5
+stm32f7xx_hal_uart.c:435:19:HAL_LIN_Init	7
+stm32f7xx_hal_uart.c:532:19:HAL_MultiProcessor_Init	6
+stm32f7xx_hal_uart.c:606:19:HAL_UART_DeInit	2
 stm32f7xx_hal_uart.c:653:13:HAL_UART_MspInit	1
 stm32f7xx_hal_uart.c:668:13:HAL_UART_MspDeInit	1
 stm32f7xx_hal_uart.c:1094:19:HAL_UART_Transmit	10
@@ -30,7 +30,7 @@ stm32f7xx_hal_uart.c:2507:13:HAL_UART_AbortCpltCallback	1
 stm32f7xx_hal_uart.c:2522:13:HAL_UART_AbortTransmitCpltCallback	1
 stm32f7xx_hal_uart.c:2537:13:HAL_UART_AbortReceiveCpltCallback	1
 stm32f7xx_hal_uart.c:2554:13:HAL_UARTEx_RxEventCallback	1
-stm32f7xx_hal_uart.c:2619:6:HAL_UART_ReceiverTimeout_Config	2
+stm32f7xx_hal_uart.c:2619:6:HAL_UART_ReceiverTimeout_Config	1
 stm32f7xx_hal_uart.c:2631:19:HAL_UART_EnableReceiverTimeout	3
 stm32f7xx_hal_uart.c:2662:19:HAL_UART_DisableReceiverTimeout	3
 stm32f7xx_hal_uart.c:2693:19:HAL_MultiProcessor_EnableMuteMode	3
@@ -38,11 +38,11 @@ stm32f7xx_hal_uart.c:2713:19:HAL_MultiProcessor_DisableMuteMode	3
 stm32f7xx_hal_uart.c:2733:6:HAL_MultiProcessor_EnterMuteMode	1
 stm32f7xx_hal_uart.c:2743:19:HAL_HalfDuplex_EnableTransmitter	4
 stm32f7xx_hal_uart.c:2766:19:HAL_HalfDuplex_EnableReceiver	4
-stm32f7xx_hal_uart.c:2790:19:HAL_LIN_SendBreak	10
+stm32f7xx_hal_uart.c:2790:19:HAL_LIN_SendBreak	2
 stm32f7xx_hal_uart.c:2835:23:HAL_UART_GetState	1
 stm32f7xx_hal_uart.c:2851:10:HAL_UART_GetError	1
-stm32f7xx_hal_uart.c:2899:19:UART_SetConfig	91
-stm32f7xx_hal_uart.c:3043:6:UART_AdvFeatureConfig	35
+stm32f7xx_hal_uart.c:2899:19:UART_SetConfig	70
+stm32f7xx_hal_uart.c:3043:6:UART_AdvFeatureConfig	10
 stm32f7xx_hal_uart.c:3117:19:UART_CheckIdleState	3
 stm32f7xx_hal_uart.c:3172:19:UART_WaitOnFlagUntilTimeout	11
 stm32f7xx_hal_uart.c:3234:19:UART_Start_Receive_IT	13

@@ -46,14 +46,16 @@
 /* Private variables ---------------------------------------------------------*/
 
 /* USER CODE BEGIN PV */
-
+uint8_t assert_buffer[200] = {0};
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
 void SystemClock_Config(void);
 void MX_FREERTOS_Init(void);
 /* USER CODE BEGIN PFP */
-
+#ifdef  USE_FULL_ASSERT
+void assert_write(uint8_t* msg);
+#endif
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
@@ -222,11 +224,26 @@ void assert_failed(uint8_t *file, uint32_t line)
   /* USER CODE BEGIN 6 */
   /* User can add his own implementation to report the file name and line number,
      ex: printf("Wrong parameters value: file %s on line %d\r\n", file, line) */
-	red_color_printf();
+
+	/* red_color_printf();
 	printf("Assert Failed: ");
 	green_color_printf();
 	printf("Wrong parameters value: file %s on line %d\r\n", file, (uint)line);
-	white_color_printf();
+	white_color_printf(); */
+
+	snprintf((char*)assert_buffer, 200, "ASSERT FAILED >>\tWrong parameters value: file %s on line %d\r\n", file, (uint)line);
+	assert_write(assert_buffer);
+
   /* USER CODE END 6 */
+}
+
+
+void assert_write(uint8_t* msg)
+{
+	int len = strlen((char*)msg);
+	int i = 0;
+	for (i = 0; i < len; ++i) {
+		ITM_SendChar(*msg++);
+	}
 }
 #endif /* USE_FULL_ASSERT */

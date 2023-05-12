@@ -1,2 +1,0 @@
-H:/Workspace/STM32F7/F7_NFC_Ethernet/Core/Src/gpio.c:41:6:MX_GPIO_Init	56	static
-H:/Workspace/STM32F7/F7_NFC_Ethernet/Core/Src/gpio.c:138:6:HAL_GPIO_EXTI_Callback	16	static

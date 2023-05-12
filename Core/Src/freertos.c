@@ -117,17 +117,17 @@ void StartDefaultTask(void *argument)
   /* Infinite loop */
   for(;;)
   {
-	  HAL_GPIO_TogglePin(MCU_LED1_TF_GPIO_Port, MCU_LED1_TF_Pin);
+	  HAL_GPIO_TogglePin(NFC_LED1_TF_GPIO_Port, NFC_LED1_TF_Pin);
 	  osDelay(80);
-	  HAL_GPIO_TogglePin(MCU_LED2_TB_GPIO_Port, MCU_LED2_TB_Pin);
+	  HAL_GPIO_TogglePin(NFC_LED2_TB_GPIO_Port, NFC_LED2_TB_Pin);
 	  osDelay(80);
-	  HAL_GPIO_TogglePin(MCU_LED3_TA_GPIO_Port, MCU_LED3_TA_Pin);
+	  HAL_GPIO_TogglePin(NFC_LED3_TA_GPIO_Port, NFC_LED3_TA_Pin);
 	  osDelay(80);
-	  HAL_GPIO_TogglePin(MCU_LED4_TV_GPIO_Port, MCU_LED4_TV_Pin);
+	  HAL_GPIO_TogglePin(NFC_LED4_TV_GPIO_Port, NFC_LED4_TV_Pin);
 	  osDelay(80);
-	  HAL_GPIO_TogglePin(MCU_LED5_AP2P_GPIO_Port, MCU_LED5_AP2P_Pin);
+	  HAL_GPIO_TogglePin(NFC_LED5_AP2P_GPIO_Port, NFC_LED5_AP2P_Pin);
 	  osDelay(80);
-	  HAL_GPIO_TogglePin(MCU_LED6_TX_GPIO_Port, MCU_LED6_TX_Pin);
+	  HAL_GPIO_TogglePin(NFC_LED6_TX_GPIO_Port, NFC_LED6_TX_Pin);
 	  green_color_printf();
 	  printf("From default Task...\r\n");
 	  osDelay(1000);

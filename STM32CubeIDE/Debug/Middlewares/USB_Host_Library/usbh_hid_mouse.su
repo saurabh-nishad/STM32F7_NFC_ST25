@@ -1,3 +1,0 @@
-H:/Workspace/STM32F7/F7_NFC_Ethernet/Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.c:180:20:USBH_HID_MouseInit	24	static
-H:/Workspace/STM32F7/F7_NFC_Ethernet/Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.c:213:25:USBH_HID_GetMouseInfo	16	static
-H:/Workspace/STM32F7/F7_NFC_Ethernet/Middlewares/ST/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_mouse.c:231:27:USBH_HID_MouseDecode	24	static
